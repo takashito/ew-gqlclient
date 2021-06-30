@@ -50,7 +50,7 @@ export async function responseProvider(request: EW.ResponseProviderRequest) {
     }
   } catch (error) {
     logger.log('error:%s', safeStringify(error));
-    return createResponse(safeStringify(error));
+    return createResponse(safeStringify(error), { headers: { "Vary":["*"] });
   }
   
   return createResponse(JSON.stringify({path:request.path, query:request.query, response:"ok"}), { headers: { "Vary":["*"] } });
