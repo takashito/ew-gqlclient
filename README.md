@@ -5,7 +5,7 @@ Graphql client example using @apollo/client
 ##### 2 Tips
 
 ###### #1. To make apollo client compatible with EdgeWorker, fetch property on HttpLink can be used.
-It will overide Networking to use buitin EdgeWorker httpRequest function.
+It will overide Networking to use built-in EdgeWorker httpRequest function.
 
 https://www.apollographql.com/docs/react/networking/advanced-http-networking/#custom-fetching
 
