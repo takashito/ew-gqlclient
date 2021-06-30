@@ -1,6 +1,6 @@
 # ew-gqlclient
 
-Graphql client example using @apollo/client
+EdgeWorker Graphql client example using @apollo/client library
 
 
 ### 1. DEMO
