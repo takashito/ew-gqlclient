@@ -5,7 +5,7 @@ EdgeWorker Graphql client example using @apollo/client library
 
 ### 1. DEMO
 
-fetch swapi data and respond back.
+fetch swapi(The Star Wars API - https://swapi.dev/) data and respond back.
 
 ```bash
 % http https://ewdemo.test.edgekey.net/gqlclient
